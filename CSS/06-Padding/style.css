@@ -1,0 +1,22 @@
+p{
+    background-color: beige;
+}
+
+p{
+    padding: 30px;
+}
+
+p{
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+}
+
+p{
+    padding: 16px 24px;
+}
+
+p{
+    padding: 10px 20px 0 30px;
+}

@@ -1,0 +1,12 @@
+p{
+    /*largura*/
+    width: 200px;
+    /*altura*/
+    height: 200px;
+    padding: 10px;
+    border: 10px rgb(156, 144, 38) solid;
+    border-radius: 10px;
+    margin: 50px;
+    background-color: rgb(96, 109, 22);
+    color: white;
+}

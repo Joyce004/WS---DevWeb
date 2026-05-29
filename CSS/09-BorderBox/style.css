@@ -1,0 +1,16 @@
+p{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: 10px brown solid;
+}
+
+.com-border-box{
+    box-sizing: border-box;
+    background-color: lightsalmon;
+}
+
+.sem-border-box{
+    background-color: lightgreen;
+}

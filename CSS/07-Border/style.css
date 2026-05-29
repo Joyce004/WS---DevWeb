@@ -1,0 +1,19 @@
+p{
+    padding: 10px;
+    border-width: 5px;
+    border-color: brown;
+    border-style:dotted;
+    border-radius: 10px;
+}
+
+p{
+    border-width: 10px 5px 2px 15px;
+    border-color: green yellow blue black;
+    border-radius: 10px 20px 20px 5px;
+    border-style: ridge;
+}
+
+p{/*   espessura cor estilo da borda     */
+    border: 3px brown solid;
+    border-radius: 10px;
+}
