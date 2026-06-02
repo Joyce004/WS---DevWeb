@@ -1,0 +1,26 @@
+html {
+    background-color: aquamarine;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+body {
+    background-color: beige;
+    width: 50%;
+    font-size: 2em;
+}
+
+.pai {
+    background-color: cadetblue;
+    width: 50%;
+    font-size: 3em;
+}
+
+.filho {
+    background-color: bisque;
+    width: 50%;
+    font-size: 1rem;
+}
