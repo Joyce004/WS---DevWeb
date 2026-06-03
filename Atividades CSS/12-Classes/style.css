@@ -1,0 +1,7 @@
+.container {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    padding: 15px;
+    background-color: lightgray;
+}

@@ -1,0 +1,15 @@
+p {
+    width: 200px;
+    padding: 20px;
+    background-color: darkkhaki;
+    display: inline-block;
+}
+.pintura {
+    width: 500px;
+    padding: 30px;
+    background-color: beige;
+}
+
+h1 {
+    color: darkgoldenrod;
+}
