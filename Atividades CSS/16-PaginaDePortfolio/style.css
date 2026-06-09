@@ -1,0 +1,46 @@
+/*necessario todas as imagens com borda arredondada de 8px e sombra leve*/
+/*aplicar cor de destaque no titulo principal e espaçamento entre os projetos / alterar a cor do link (hover)*/
+
+.container {
+    background-color: lightsteelblue;
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 4px 4px 15px rgb(100, 100, 100);
+}
+
+h1 {
+    color: darkgoldenrod;
+}
+
+h2 {
+    color: rgb(165, 124, 22);
+}
+
+h3 {
+    color: rgb(70, 50, 0);
+    border: 2px rgb(199, 212, 228) solid;
+    background-color: rgb(199, 212, 228);
+    border-radius: 20px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+img {
+    margin-top: 10px;
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px rgb(104, 103, 103);
+}
+
+a {
+    color: darkgoldenrod;
+}
+
+a:hover {
+    color: darkolivegreen;
+}

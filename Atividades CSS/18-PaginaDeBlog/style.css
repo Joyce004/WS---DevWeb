@@ -1,0 +1,42 @@
+body {
+    background-color: darkgray;
+}
+
+.container {
+    background-color:floralwhite;
+    width: 500px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+h1, h2 {
+    color: rgb(155, 40, 40);
+    text-align: center;
+}
+
+h3 {
+    color: rgb(146, 38, 38);
+}
+
+p {
+    margin: 5px;
+}
+
+img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+    border: 5px rgb(255, 255, 255) solid;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgb(122, 122, 122);
+}
+
+a {
+    color: brown;
+}
+
+a:hover {
+    color: darkgoldenrod;
+}

@@ -1,0 +1,11 @@
+.titulo1 {
+    background-color: lightcyan;
+}
+
+a {
+    color: cornflowerblue;
+}
+
+a:hover {
+    color: darkblue;
+}
