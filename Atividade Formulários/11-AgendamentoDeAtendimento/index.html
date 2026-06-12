@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de Atendimento</title>
+</head>
+<body>
+    <form action="/" method="post">
+        <h1>Agendamento</h1>
+        <label for="nome">Nome completo:</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required>
+        <br>
+        <label for="telefone">Telefone</label>
+        <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone" required>
+        <br>
+        <label for="data">Data do atendimento:</label>
+        <input type="date" name="data" id="data" required>
+        <br>
+        <label for="horario">Horário do atendimento:</label>
+        <input type="time" name="horario" id="horario" required>
+        <br>
+        <label for="servico">Serviço desejado:</label>
+        <select name="servico" id="servico" required>
+            <option value="" selected disabled>Selecione...</option>
+            <option value="corte">Corte de cabelo</option>
+            <option value="barba">Barba</option>
+            <option value="sobrancelha">Sobrancelha</option>
+            <option value="cilio">Alongamento de cílios</option>
+            <option value="unha">Manicure/Pedicure</option>
+        </select>
+        <br>
+        <label for="prioridade">Prioridade:</label>
+        <input type="radio" name="prioridade" id="prioridade" value="baixa">
+        <label for="baixa">Baixa</label>
+        <input type="radio" name="prioridade" id="prioridade" value="media">
+        <label for="media">Média</label>
+        <input type="radio" name="prioridade" id="prioridade" value="alta">
+        <label for="alta">Alta</label>
+        <br>
+        <label for="observacoes">Observações adicionais:</label>
+        <textarea name="observacoes" id="observacoes" rows="3" cols="30" placeholder="Digite aqui suas observações adicionais"></textarea>
+        <br>
+        <button type="submit">Agendar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>

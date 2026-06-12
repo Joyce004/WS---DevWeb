@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição em curso</title>
+</head>
+<body>
+    <form action="/" method="post">
+        <h1>Inscrição em Curso</h1>
+        <label for="nome">Nome completo:</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required>
+        <br>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+        <br>
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone">
+        <br>
+        <label for="curso">Curso desejado:</label>
+        <select name="curso" id="curso" required>
+            <option value="" selected disabled>Selecione...</option>
+            <option value="programacao">Programação</option>
+            <option value="design">Design</option>
+            <option value="marketing">Marketing</option>
+            <option value="negocios">Negócios</option>
+        </select>
+        <br>
+        <label for="periodo">Período:</label>
+        <input type="radio" name="periodo" id="manha" value="manha">
+        <label for="manha">Manhã</label>
+        <input type="radio" name="periodo" id="tarde" value="tarde">
+        <label for="tarde">Tarde</label>
+        <input type="radio" name="periodo" id="noite" value="noite">
+        <label for="noite">Noite</label>
+        <br>
+        <label for="materiais">Materiais extras</label>
+        <input type="checkbox" name="materiais" id="apostila" value="apostila">
+        <label for="apostila">Apostila</label>
+        <input type="checkbox" name="materiais" id="certificado" value="certificado">
+        <label for="certificado">Certificado</label>
+        <input type="checkbox" name="materiais" id="suporte" value="suporte">
+        <label for="suporte">Suporte extra</label>
+        <br>
+        <label for="duvidas">Dúvidas</label>
+        <textarea name="duvidas" id="duvidas" rows="3" cols="20" placeholder="Escreva suas dúvidas aqui"></textarea>
+        <br>
+        <button type="submit">Finalizar inscrição</button>
+    </form>
+</body>
+</html>

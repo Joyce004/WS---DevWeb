@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas de Seleção</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/" method="post">
+        <h1>O sorvetão</h1>
+        <h2>é muito melhor!</h2>
+        <label for="sabor">Qual sabor do seu sorvete?</label>
+        <input type="text" name="sabor" id="sabor" placeholder="Informe o sabor de sorvete" required>
+        <br>
+        <label for="tamanho">Qual o tamanho do sorvete:</label>
+            <select id="tamanho" name="tamanho">
+                <option value="" selected disabled>Selecione...</option>
+                <option value="pequeno">Pequeno</option>
+                <option value="medio">Médio</option>
+                <option value="grande">Grande</option>
+            </select>
+        <br>
+        <label for="sugestao">Algumas sugestões para você:</label>
+        <input list="sugestoes" name="sugestao" id="sugestao">
+        <datalist id="sugestoes">
+            <option value="Morango"></option>
+            <option value="Floresta negra"></option>
+            <option value="Abacaxi com vinho"></option>
+            <option value="Pistache"></option>
+        </datalist>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
