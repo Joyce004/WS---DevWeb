@@ -1,10 +1,24 @@
-.bg {
-    width: 100vw;
-    height: 100vh;
-    background-color: cadetblue;
+.banner {
+    padding: 100px;
+    color: black;
+    text-align: center;
+    background: linear-gradient(45deg, #81bd72 0%, #d0ebc5 20%, #81bd72) 100%;
+}
+
+.secao {
+    height: 300px;
+    padding: 50px;
+    color: white;
     background-image: url(../lorem.png);
-    /*background-repeat: no-repeat; NÃO REPETE A IMAGEM VARIAS VEZES*/
+    background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
-    background-position: left;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.card {
+    padding: 100px;
+    color: black;
+    text-align: center;
+    background: radial-gradient(circle, #81bd72 0%,#d0ebc5 50%,#81bd72) 100%;
 }
