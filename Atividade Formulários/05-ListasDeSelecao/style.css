@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}*
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -15,44 +15,49 @@ body {
 }
 
 form {
-    background-image: url(../05-ListasDeSelecao/fundo-de-papel-de-parede-colorido-vivido-e-desfocado_58702-4197.png);
-    background-repeat: no-repeat;
+    background-image: url(../05-ListasDeSelecao/fundo-laranja-e-amarelo.png);
     padding: 50px;
     border-radius: 15px;
-    width: 600px;
-    height: 300px;
+    width: 400px;
+    height: 420px;
     box-shadow: 5px 5px 20px rgba(94, 94, 94, 0.8);
     text-align: center;
 }
 
 h1 {
     color: rgba(255, 202, 0, 2);
-    text-align: center;
 }
 
 h2 {
     color: rgba(98, 45, 109, 2);
-    text-align: center;
+    margin-bottom: 15px;
 }
 
 label {
     color: #f0f0f0;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    margin: 50px 20px 50px 0;
-    text-align: left;
 }
 
 input {
     padding: 5px;
     border-radius: 5px;
     border: none;
+    margin: 5px 0 15px 0;
+    width: 60%;
 }
 
-datalist {
+select {
     padding: 5px;
     border-radius: 5px;
     border: none;
+    margin: 5px 0 15px 0;
+    width: 60%;
+    text-align: center;
+}
+
+option {
+    color: rgb(86, 86, 86);
 }
 
 button {
@@ -60,5 +65,14 @@ button {
     border: none;
     padding: 10px 20px;
     border-radius: 50px;
-    margin-top: 15px;
+    box-shadow: 5px 5px 20px rgba(98, 98, 98, 0.8);
+    margin: 15px auto 0;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgba(255, 111, 0, 2);
+    color: #f0f0f0;
+    cursor: pointer;
+    transform: scale(1.1);
 }

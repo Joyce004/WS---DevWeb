@@ -9,12 +9,14 @@
 </head>
 <body>
     <form action="/" method="post">
-        <h1>O sorvetão</h1>
-        <h2>é muito melhor!</h2>
+        <h1>O Sorvetão</h1>
+        <h2>é muito melhor</h2>
         <label for="sabor">Qual sabor do seu sorvete?</label>
+        <br>
         <input type="text" name="sabor" id="sabor" placeholder="Informe o sabor de sorvete" required>
         <br>
         <label for="tamanho">Qual o tamanho do sorvete:</label>
+        <br>
             <select id="tamanho" name="tamanho">
                 <option value="" selected disabled>Selecione...</option>
                 <option value="pequeno">Pequeno</option>
@@ -23,6 +25,7 @@
             </select>
         <br>
         <label for="sugestao">Algumas sugestões para você:</label>
+        <br>
         <input list="sugestoes" name="sugestao" id="sugestao">
         <datalist id="sugestoes">
             <option value="Morango"></option>
