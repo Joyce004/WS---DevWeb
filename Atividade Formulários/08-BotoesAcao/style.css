@@ -19,7 +19,7 @@ form {
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(43, 43, 43, 0.2);
     width: 450px;
-    height: 560px;
+    height: 530px;
 }
 
 h1 {
@@ -41,13 +41,14 @@ button {
     background-color: rgb(94, 79, 79);
     box-shadow: 5px 5px 10px rgb(167, 166, 166);
     border-radius: 7px;
-    width: 400px;
-    height: 35px;
-    margin: 10px;
+    width: 190px;
+    height: 30px;
+
+    margin: 10px 0;
     border: none;
 }
 
 button:hover {
-    color: rgb(94, 79, 79);
-    background-color: #a19393;
+    color: rgb(69, 58, 58);
+    background-color: #887d7d;
 }
